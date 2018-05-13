@@ -2,8 +2,9 @@
   "name": "src",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "./",
   "dependencies": {
+    "ajv": "^6.5.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-scripts": "1.1.4"
@@ -14,5 +15,6 @@
     "postbuild": "rm -fr ../static && mv -f build/* ../",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "devDependencies": {}
 }
